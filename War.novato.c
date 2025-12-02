@@ -5,5 +5,6 @@
         char nome[30];
         char cor[20];
         int tropas;
-     }
 
+
+     };
