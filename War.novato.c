@@ -36,7 +36,9 @@
         printf("======================\n");
         printf("----- Mapa Mundo -----\n");
         printf("======================\n");
+
         for (int i = 0; i < 5; i++){
+            
             printf("TERRITORIO %d:\n", i + 1);
             printf(" -Nome: %s", territorios[i].nome);
             printf(" -Dominado por: exercito %s", territorios[i].cor);
